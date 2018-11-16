@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="plate" data-q="greetingDiv">
+            <h1 data-q="firstH1">Witaj w naszej ankiecie</h1>
+            <h1 data-q="secondH1">Wylosuj pytania!</h1>
+            <button data-q="greetingBtn">Start</button>
+        </div>
+        <div class="plate questions" data-q="questionsDiv">
+            <h1 data-q="thirdH1">Z jakiego komitetu?</h1>
+            <form action="">
+                <ul>
+                    <li> <input type="radio" name="gender" id="opt1" checked>
+                        <label for="opt1" class="label"><span></span></label></li>
+                    <li><input type="radio" name="gender" id="opt2">
+                        <label for="opt2" class="label"><span></span></label></li>
+                    <li><input type="radio" id="opt3" name="gender">
+                        <label for="opt3" class="label"><span></span></label></li>
+                </ul>
+            </form>
+            <button data-q="submit">Dalej</button>
+        </div>
+
+    </main>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
